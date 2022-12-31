@@ -27,6 +27,7 @@
     {
       "name": "Simon Bray",
       "joined": "2019-05",
+      "elixir_node": "de",
       "id": "simonbray",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/simonbray.json"
     },
@@ -38,6 +39,7 @@
       "orcid": "0000-0002-3079-6586",
       "linkedin": "bgruening",
       "joined": "2017-09",
+      "elixir_node": "de",
       "id": "bgruening",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json"
     }
@@ -135,11 +137,19 @@
         {
           "name": "Simon Bray",
           "joined": "2019-05",
+          "elixir_node": "de",
           "id": "simonbray",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/simonbray.json"
+        },
+        {
+          "name": "Nadia Goué",
+          "email": "nadia.goue@uca.fr",
+          "orcid": "0000-0003-2750-1473",
+          "joined": "2019-07",
+          "id": "nagoue",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/nagoue.json"
         }
       ],
-      "last_modified_at": "04-Mar-22",
       "url": "/topics/computational-chemistry/tutorials/analysis-md-simulations/tutorial.html",
       "topic_name": "computational-chemistry",
       "tutorial_name": "analysis-md-simulations",
@@ -210,6 +220,7 @@
         {
           "name": "Simon Bray",
           "joined": "2019-05",
+          "elixir_node": "de",
           "id": "simonbray",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/simonbray.json"
         },
@@ -234,11 +245,11 @@
           "orcid": "0000-0002-3079-6586",
           "linkedin": "bgruening",
           "joined": "2017-09",
+          "elixir_node": "de",
           "id": "bgruening",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json"
         }
       ],
-      "last_modified_at": "04-Mar-22",
       "url": "/topics/computational-chemistry/tutorials/htmd-analysis/tutorial.html",
       "topic_name": "computational-chemistry",
       "tutorial_name": "htmd-analysis",
@@ -333,11 +344,11 @@
         {
           "name": "Simon Bray",
           "joined": "2019-05",
+          "elixir_node": "de",
           "id": "simonbray",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/simonbray.json"
         }
       ],
-      "last_modified_at": "17-Feb-22",
       "url": "/topics/computational-chemistry/tutorials/zauberkugel/tutorial.html",
       "topic_name": "computational-chemistry",
       "tutorial_name": "zauberkugel",
@@ -398,11 +409,11 @@
         {
           "name": "Simon Bray",
           "joined": "2019-05",
+          "elixir_node": "de",
           "id": "simonbray",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/simonbray.json"
         }
       ],
-      "last_modified_at": "17-Nov-21",
       "url": "/topics/computational-chemistry/tutorials/cheminformatics/tutorial.html",
       "topic_name": "computational-chemistry",
       "tutorial_name": "cheminformatics",
@@ -492,11 +503,11 @@
         {
           "name": "Simon Bray",
           "joined": "2019-05",
+          "elixir_node": "de",
           "id": "simonbray",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/simonbray.json"
         }
       ],
-      "last_modified_at": "04-Nov-21",
       "url": "/topics/computational-chemistry/tutorials/md-simulation-gromacs/tutorial.html",
       "topic_name": "computational-chemistry",
       "tutorial_name": "md-simulation-gromacs",
@@ -593,11 +604,11 @@
         {
           "name": "Simon Bray",
           "joined": "2019-05",
+          "elixir_node": "de",
           "id": "simonbray",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/simonbray.json"
         }
       ],
-      "last_modified_at": "12-Mar-21",
       "url": "/topics/computational-chemistry/tutorials/md-simulation-namd/tutorial.html",
       "topic_name": "computational-chemistry",
       "tutorial_name": "md-simulation-namd",
@@ -687,11 +698,19 @@
         {
           "name": "Simon Bray",
           "joined": "2019-05",
+          "elixir_node": "de",
           "id": "simonbray",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/simonbray.json"
+        },
+        {
+          "name": "Nadia Goué",
+          "email": "nadia.goue@uca.fr",
+          "orcid": "0000-0003-2750-1473",
+          "joined": "2019-07",
+          "id": "nagoue",
+          "url": "https://training.galaxyproject.org/training-material/api/contributors/nagoue.json"
         }
       ],
-      "last_modified_at": "10-Mar-22",
       "url": "/topics/computational-chemistry/tutorials/setting-up-molecular-systems/tutorial.html",
       "topic_name": "computational-chemistry",
       "tutorial_name": "setting-up-molecular-systems",
@@ -753,11 +772,11 @@
         {
           "name": "Simon Bray",
           "joined": "2019-05",
+          "elixir_node": "de",
           "id": "simonbray",
           "url": "https://training.galaxyproject.org/training-material/api/contributors/simonbray.json"
         }
       ],
-      "last_modified_at": "02-Sep-21",
       "url": "/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html",
       "topic_name": "computational-chemistry",
       "tutorial_name": "covid19-docking",
