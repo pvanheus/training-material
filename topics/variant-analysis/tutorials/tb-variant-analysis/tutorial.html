@@ -24,7 +24,7 @@
 <meta name="DC.type" content="text" />
 <meta name="DC.title" content="M. tuberculosis Variant Analysis" />
 <meta name="DC.publisher" content="Galaxy Training Network" />
-<meta name="DC.date" content="2022-11-28 10:10:13 +0000" />
+<meta name="DC.date" content="2023-01-01 09:42:09 +0000" />
 <meta name="DC.creator" content="Peter van Heusden" />
 <meta name="DC.creator" content="Simon Gladman" />
 <meta name="DC.creator" content="Thoba Lose" />
@@ -279,7 +279,7 @@
     "name": "Galaxy Training Network",
     "url": "https://galaxyproject.org/teach/gtn/"
   },
-  "dateModified": "2022-11-28 10:10:13 +0000",
+  "dateModified": "2023-01-01 09:42:09 +0000",
   "discussionUrl": "https://gitter.im/Galaxy-Training-Network/Lobby",
   "headline": "M. tuberculosis Variant Analysis",
   "interactivityType": "mixed",
@@ -991,7 +991,7 @@
         </ul>
         
 
-        <div><strong><i class="far fa-calendar" aria-hidden="true"></i> Last modification:</strong> Nov 28, 2022 </div>
+        <div><strong><i class="far fa-calendar" aria-hidden="true"></i> Last modification:</strong> Jan 1, 2023 </div>
         <div><strong><i class="fas fa-balance-scale" aria-hidden="true"></i> License:</strong>
             
             <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Tutorial Content is licensed under Creative Commons Attribution 4.0 International License</a>
@@ -1342,10 +1342,10 @@ gene annotation from the <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_000962
 <blockquote class="notranslate hands_on">
   <div id="hands-on-run-snippy-1" class="box-title" aria-label="hands-on box: Run Snippy"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"></span> Hands-on: Run Snippy</div>
   <ol>
-    <li><span class="tool" data-tool="toolshed.g2.bx.psu.edu/repos/iuc/tb_variant_filter/tb_variant_filter/0.3.5+galaxy2" title="Tested with toolshed.g2.bx.psu.edu/repos/iuc/tb_variant_filter/tb_variant_filter/0.3.5+galaxy2"><strong>TB Variant Filter</strong> <i class="fas fa-wrench" aria-hidden="true"></i><i aria-hidden="true" class="fas fa-cog"></i><span class="visually-hidden">Tool: <span class="notranslate">toolshed</span>.g2.bx.psu.edu/repos/iuc/tb_variant_filter/tb_variant_filter/0.3.5+<span class="notranslate">galaxy</span>2</span></span> : <i class="fas fa-wrench" aria-hidden="true"></i><span class="visually-hidden">tool</span> with the following parameters
+    <li><span class="tool" data-tool="toolshed.g2.bx.psu.edu/repos/iuc/tb_variant_filter/tb_variant_filter/0.3.6+galaxy0" title="Tested with toolshed.g2.bx.psu.edu/repos/iuc/tb_variant_filter/tb_variant_filter/0.3.6+galaxy0"><strong>TB Variant Filter</strong> <i class="fas fa-wrench" aria-hidden="true"></i><i aria-hidden="true" class="fas fa-cog"></i><span class="visually-hidden">Tool: <span class="notranslate">toolshed</span>.g2.bx.psu.edu/repos/iuc/tb_variant_filter/tb_variant_filter/0.3.6+<span class="notranslate">galaxy</span>0</span></span> : <i class="fas fa-wrench" aria-hidden="true"></i><span class="visually-hidden">tool</span> with the following parameters
       <ul>
         <li><em>“VCF file to be filter”</em>: <code class="language-plaintext highlighter-rouge">snippy on data XX, data XX, and data XX mapped <span class="notranslate">reads</span> vcf file</code></li>
-        <li><em>“Filters to apply”</em>: Select <code class="language-plaintext highlighter-rouge">Filter variants by region</code>, <code class="language-plaintext highlighter-rouge">Filter variants close to indels</code> and <code class="language-plaintext highlighter-rouge">Filter sites by read alignment depth</code>.</li>
+        <li><em>“Filters to apply”</em>: Select <code class="language-plaintext highlighter-rouge">Filter variants by region</code> and <code class="language-plaintext highlighter-rouge">Filter sites by read alignment depth</code>.</li>
       </ul>
     </li>
     <li>
@@ -1362,7 +1362,7 @@ gene annotation from the <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_000962
           <div id="solution-4" class="box-title"><button type="button" aria-controls="solution-4-contents" aria-expanded="true" aria-label="Toggle solution box: "><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden"></span> Solution<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
 
           <ol>
-            <li><code class="language-plaintext highlighter-rouge">218</code> (The difference in the number of lines between the snippy vcf file and the filtered vcf file.)</li>
+            <li><code class="language-plaintext highlighter-rouge">159</code> (The difference in the number of lines between the snippy vcf file and the filtered vcf file.)</li>
           </ol>
 
         </blockquote>
@@ -1371,6 +1371,29 @@ gene annotation from the <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_000962
   </ol>
 </blockquote>
 
+<blockquote class="details">
+  <div id="details-which-filters-to-apply" class="box-title"><button type="button" aria-controls="details-which-filters-to-apply-contents" aria-expanded="true" aria-label="Toggle details box: Which filters to apply?"><i class="fas fa-info-circle" aria-hidden="true"></i><span class="visually-hidden"></span> Details: Which filters to apply?<span role="button" class="fold-unfold fa fa-minus-square"></span></button></div>
+
+  <p>TB Variant Filter tries to provide reasonable defaults for filtering
+variants predicted in the M. tuberculosis
+genome, using multiple different strategies.
+Firstly, certain regions of the Mtb genome
+contain repetitive sequences, e.g. from
+the PE/PPE gene family. Historically all of the genomic regions corresponding to
+those genes were filtered out but 
+the new default draws on work from
+Maximillian Marin and others. This
+list of “refined low confidence” (RLC)
+regions is the current region filter in
+TB Variant Filter for <span class="notranslate">reads</span> over 100 bp.
+If you are using shorter <span class="notranslate">reads</span> (e.g. from Illumina iSeq) the “Refined Low Confidence and Low Mappability” region list should be used instead.
+For more on how these regions were calculated read the <a href="https://academic.oup.com/bioinformatics/article-abstract/38/7/1781/6502279?login=false">paper</a> or <a href="https://www.biorxiv.org/content/10.1101/2021.04.08.438862v3.full">preprint</a>.</p>
+
+  <p>In addition to region filters, filters for variant type, allele frequency, coverage depth and distance from indels are provided.
+Older variant callers struggled to accurately
+call insertions and deletions (indels) but more recent tools (e.g. GATK v4 and the variant caller used in Snippy, Freebayes) no longer have this weakness. One remaining reason to filter SNVs/SNPs near indels is that they might have a different
+evolutionary history to “free standing” SNVs/SNPs, so the “close to indel filter” is still available in TB Variant Filter in case such SNPs/SNVs should be filtered out.</p>
+</blockquote>
 <p>Now that we have a collection of <em>high quality variants</em> we can search them against variants known to be associated with drug resistance. The <em>TB Profiler</em> tool does this using a database of variants curated by Dr Jody Phelan at the London School of Hygiene and Tropical Medicine. It can do its own <span class="notranslate">mapping</span> and variant calling but also accepts mapped <span class="notranslate">reads</span> in BAM format as input. It does its own variant calling and filtering.</p>
 
 <p>Finally, TB Variant Report use the COMBAT-TB <a href="https://explorer.sanbi.ac.za">eXplorer</a> <a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz658/5554700">database</a> of <em>M. tuberculosis</em> genome annotation to annotate variants in Mtb. It also takes the output of <em>TB Profiler</em> and produces a neat report that is easy to browse and search.</p>
@@ -1378,7 +1401,7 @@ gene annotation from the <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_000962
 <blockquote class="notranslate hands_on">
   <div id="hands-on-run-tb-profiler-and-tb-variant-report" class="box-title" aria-label="hands-on box: Run TB Profiler and TB Variant Report"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"></span> Hands-on: Run TB Profiler and TB Variant Report</div>
   <ol>
-    <li><span class="tool" data-tool="toolshed.g2.bx.psu.edu/repos/iuc/tbprofiler/tb_profiler_profile/4.1.1+galaxy0" title="Tested with toolshed.g2.bx.psu.edu/repos/iuc/tbprofiler/tb_profiler_profile/4.1.1+galaxy0"><strong>TB-Profiler profile</strong> <i class="fas fa-wrench" aria-hidden="true"></i><i aria-hidden="true" class="fas fa-cog"></i><span class="visually-hidden">Tool: <span class="notranslate">toolshed</span>.g2.bx.psu.edu/repos/iuc/tbprofiler/tb_profiler_profile/4.1.1+<span class="notranslate">galaxy</span>0</span></span> : <i class="fas fa-wrench" aria-hidden="true"></i><span class="visually-hidden">tool</span> with the following parameters
+    <li><span class="tool" data-tool="toolshed.g2.bx.psu.edu/repos/iuc/tbprofiler/tb_profiler_profile/4.4.0+galaxy0" title="Tested with toolshed.g2.bx.psu.edu/repos/iuc/tbprofiler/tb_profiler_profile/4.4.0+galaxy0"><strong>TB-Profiler profile</strong> <i class="fas fa-wrench" aria-hidden="true"></i><i aria-hidden="true" class="fas fa-cog"></i><span class="visually-hidden">Tool: <span class="notranslate">toolshed</span>.g2.bx.psu.edu/repos/iuc/tbprofiler/tb_profiler_profile/4.4.0+<span class="notranslate">galaxy</span>0</span></span> : <i class="fas fa-wrench" aria-hidden="true"></i><span class="visually-hidden">tool</span> with the following parameters
       <ul>
         <li><em>“Input File Type”</em>: <code class="language-plaintext highlighter-rouge">BAM</code></li>
       </ul>
