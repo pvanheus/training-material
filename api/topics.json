@@ -53,6 +53,7 @@
       },
       {
         "name": "Wolfgang Maier",
+        "orcid": "0000-0002-9464-6640",
         "joined": "2017-09",
         "elixir_node": "de",
         "id": "wm75",
@@ -134,7 +135,7 @@
       },
       {
         "name": "Helena Rasche",
-        "email": "helena.rasche@gmail.com",
+        "email": "hexylena@galaxians.org",
         "orcid": "0000-0001-9760-8992",
         "maintainer_contact": "gitter",
         "gitter": "hexylena",
@@ -282,7 +283,7 @@
       },
       {
         "name": "Helena Rasche",
-        "email": "helena.rasche@gmail.com",
+        "email": "hexylena@galaxians.org",
         "orcid": "0000-0001-9760-8992",
         "maintainer_contact": "gitter",
         "gitter": "hexylena",
@@ -386,7 +387,7 @@
       },
       {
         "name": "Helena Rasche",
-        "email": "helena.rasche@gmail.com",
+        "email": "hexylena@galaxians.org",
         "orcid": "0000-0001-9760-8992",
         "maintainer_contact": "gitter",
         "gitter": "hexylena",
@@ -655,7 +656,7 @@
     "maintainers": [
       {
         "name": "Helena Rasche",
-        "email": "helena.rasche@gmail.com",
+        "email": "hexylena@galaxians.org",
         "orcid": "0000-0001-9760-8992",
         "maintainer_contact": "gitter",
         "gitter": "hexylena",
@@ -713,7 +714,7 @@
     "maintainers": [
       {
         "name": "Helena Rasche",
-        "email": "helena.rasche@gmail.com",
+        "email": "hexylena@galaxians.org",
         "orcid": "0000-0001-9760-8992",
         "maintainer_contact": "gitter",
         "gitter": "hexylena",
@@ -773,6 +774,22 @@
       }
     ]
   },
+  "covid19": {
+    "name": "covid19",
+    "title": "SARS-CoV-2",
+    "summary": "Tutorials covering analysis of SARS-CoV-2 (COVID 19)",
+    "url": "https://training.galaxyproject.org/training-material/api/topics/covid19.json",
+    "maintainers": [
+      {
+        "name": "Wolfgang Maier",
+        "orcid": "0000-0002-9464-6640",
+        "joined": "2017-09",
+        "elixir_node": "de",
+        "id": "wm75",
+        "url": "https://training.galaxyproject.org/training-material/api/contributors/wm75.json"
+      }
+    ]
+  },
   "data-science": {
     "name": "data-science",
     "title": "Foundations of Data Science",
@@ -781,7 +798,7 @@
     "maintainers": [
       {
         "name": "Helena Rasche",
-        "email": "helena.rasche@gmail.com",
+        "email": "hexylena@galaxians.org",
         "orcid": "0000-0001-9760-8992",
         "maintainer_contact": "gitter",
         "gitter": "hexylena",

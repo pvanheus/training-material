@@ -32,7 +32,7 @@
     },
     {
       "name": "Helena Rasche",
-      "email": "helena.rasche@gmail.com",
+      "email": "hexylena@galaxians.org",
       "orcid": "0000-0001-9760-8992",
       "maintainer_contact": "gitter",
       "gitter": "hexylena",
@@ -45,5 +45,6 @@
   "subtopic": "cleanup",
   "url": "/topics/galaxy-interface/tutorials/download-delete-data/tutorial.html",
   "topic_name": "galaxy-interface",
-  "tutorial_name": "download-delete-data"
+  "tutorial_name": "download-delete-data",
+  "dir": "topics/galaxy-interface/tutorials/download-delete-data"
 }

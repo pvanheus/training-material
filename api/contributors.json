@@ -90,6 +90,14 @@
     "url": "https://training.galaxyproject.org/training-material/api/contributors/allegravia.json"
   },
   {
+    "name": "Allison Creason",
+    "email": "creason@ohsu.edu",
+    "orcid": "0000-0001-5724-1276",
+    "joined": "2023-02",
+    "id": "alliecreason",
+    "url": "https://training.galaxyproject.org/training-material/api/contributors/alliecreason.json"
+  },
+  {
     "name": "Alex Mahmoud",
     "joined": "2019-06",
     "id": "almahmoud",
@@ -329,6 +337,14 @@
     "url": "https://training.galaxyproject.org/training-material/api/contributors/brigidagallone.json"
   },
   {
+    "name": "Cameron Watson",
+    "joined": "2022-07",
+    "email": "watsocam@ohsu.edu",
+    "orcid": "0000-0002-6942-2469",
+    "id": "CameronFRWatson",
+    "url": "https://training.galaxyproject.org/training-material/api/contributors/CameronFRWatson.json"
+  },
+  {
     "name": "Catherine Bromhead",
     "gitter": "cat-bro",
     "joined": "2019-12",
@@ -441,8 +457,8 @@
   {
     "name": "David Salgado",
     "joined": "2022-10",
-    "id": "davidsalgado",
-    "url": "https://training.galaxyproject.org/training-material/api/contributors/davidsalgado.json"
+    "id": "d-salgado",
+    "url": "https://training.galaxyproject.org/training-material/api/contributors/d-salgado.json"
   },
   {
     "name": "Daniela Butano",
@@ -480,6 +496,12 @@
     "joined": "2017-09",
     "id": "delphine-l",
     "url": "https://training.galaxyproject.org/training-material/api/contributors/delphine-l.json"
+  },
+  {
+    "name": "Deepti Varshney",
+    "joined": "2022-12",
+    "id": "deeptivarshney",
+    "url": "https://training.galaxyproject.org/training-material/api/contributors/deeptivarshney.json"
   },
   {
     "name": "Desmond Jasper",
@@ -550,6 +572,7 @@
   {
     "name": "Engy Nasr",
     "email": "engynasr94@gmail.com",
+    "orcid": "0000-0001-9047-4215",
     "gitter": "EngyNasr",
     "joined": "2021-05",
     "elixir_node": "de",
@@ -740,7 +763,7 @@
   },
   {
     "name": "Helena Rasche",
-    "email": "helena.rasche@gmail.com",
+    "email": "hexylena@galaxians.org",
     "orcid": "0000-0001-9760-8992",
     "maintainer_contact": "gitter",
     "gitter": "hexylena",
@@ -1149,6 +1172,8 @@
   },
   {
     "name": "Marisa Loach",
+    "orcid": "0000-0001-6979-6930",
+    "twitter": "Marisa_Loach",
     "email": "marisa.loach@open.ac.uk",
     "joined": "2022-10",
     "id": "MarisaJL",
@@ -1937,6 +1962,7 @@
   },
   {
     "name": "Wolfgang Maier",
+    "orcid": "0000-0002-9464-6640",
     "joined": "2017-09",
     "elixir_node": "de",
     "id": "wm75",
