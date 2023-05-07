@@ -1,7 +1,9 @@
 {
   "layout": "tutorial_hands_on",
   "redirect_from": [
-    "/topics/galaxy-ui/tutorials/history/tutorial"
+    "/topics/galaxy-ui/tutorials/history/tutorial",
+    "/short/galaxy-interface/history",
+    "/short/T00150"
   ],
   "title": "Understanding Galaxy history system",
   "zenodo_link": "",
@@ -40,33 +42,73 @@
   "topic_name": "galaxy-interface",
   "tutorial_name": "history",
   "dir": "topics/galaxy-interface/tutorials/history",
+  "id": "galaxy-interface/history",
+  "video_library": {
+    "tutorial": null,
+    "slides": null,
+    "demo": null,
+    "both": null,
+    "session": null
+  },
+  "hands_on": true,
+  "slides": false,
+  "tools": [
+
+  ],
+  "tours": false,
+  "video": false,
+  "translations": {
+    "tutorial": [
+
+    ],
+    "slides": [
+
+    ],
+    "video": false
+  },
+  "type": "tutorial",
   "contributors": [
     {
       "name": "Anton Nekrutenko",
       "email": "anton@nekrut.org",
       "joined": "2017-09",
       "id": "nekrut",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/nekrut.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/nekrut.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/nekrut/"
     },
     {
       "name": "Ekaterina Polkh",
       "joined": "2017-09",
       "id": "polkhe",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/polkhe.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/polkhe.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/polkhe/"
     },
     {
       "name": "Martin Čech",
       "email": "marten@bx.psu.edu",
+      "gitter": "martenson",
+      "orcid": "0000-0002-9318-1781",
+      "elixir_node": "cz",
+      "contact_for_training": true,
+      "location": {
+        "country": "USA",
+        "lat": 37.0,
+        "lon": -122.0
+      },
+      "fediverse": "https://mastodon.world/@martenson",
       "joined": "2017-09",
       "id": "martenson",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/martenson.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/martenson.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/martenson/"
     },
     {
       "name": "Cristóbal Gallardo",
       "joined": "2020-11",
       "elixir_node": "de",
+      "orcid": "0000-0002-5752-2155",
       "id": "gallardoalba",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/gallardoalba.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/gallardoalba.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/gallardoalba/"
     },
     {
       "name": "Saskia Hiltemann",
@@ -79,8 +121,15 @@
       "joined": "2017-09",
       "bio": "Researcher at Erasmus Medical Center",
       "elixir_node": "nl",
+      "contact_for_training": true,
+      "location": {
+        "country": "NL",
+        "lat": 51.912,
+        "lon": 4.462
+      },
       "id": "shiltemann",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/shiltemann.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/"
     },
     {
       "name": "Bérénice Batut",
@@ -91,8 +140,16 @@
       "orcid": "0000-0001-9852-1987",
       "joined": "2017-09",
       "elixir_node": "de",
+      "contact_for_training": true,
+      "location": {
+        "country": "FR",
+        "lat": 45.77,
+        "lon": 3.08
+      },
+      "fediverse": "https://piaille.fr/@bebatut",
       "id": "bebatut",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/bebatut.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/"
     },
     {
       "name": "Björn Grüning",
@@ -104,7 +161,8 @@
       "joined": "2017-09",
       "elixir_node": "de",
       "id": "bgruening",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/bgruening.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bgruening/"
     },
     {
       "name": "Helena Rasche",
@@ -114,8 +172,16 @@
       "gitter": "hexylena",
       "joined": "2017-09",
       "elixir_node": "nl",
+      "fediverse": "https://galaxians.garden/hexylena",
+      "contact_for_training": false,
+      "location": {
+        "country": "NL",
+        "lat": 51.91,
+        "lon": 4.46
+      },
       "id": "hexylena",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
     }
   ]
 }

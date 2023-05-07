@@ -19,12 +19,12 @@
         <link rel="canonical" href="https://training.galaxyproject.org/training-material/topics/assembly/tutorials/debruijn-graph-assembly/slides.html" />
         <link rel="license" href="https://creativecommons.org/licenses/by/4.0/" />
 
-        <meta name="DC.identifier" content="https://github.com/galaxyproject/training-material" />
-<meta name="DC.type" content="text" />
-<meta name="DC.title" content="De Bruijn Graph Assembly" />
-<meta name="DC.publisher" content="Galaxy Training Network" />
-<meta name="DC.date" content="2022-02-07 15:20:34 +0000" />
-<meta name="DC.creator" content="Simon Gladman" />
+        <meta name="DC.identifier" content="https://github.com/galaxyproject/training-material">
+<meta name="DC.type" content="text">
+<meta name="DC.title" content="De Bruijn Graph Assembly">
+<meta name="DC.publisher" content="Galaxy Training Network">
+<meta name="DC.date" content="2022-02-07 15:20:34 +0000">
+<meta name="DC.creator" content="Simon Gladman">
 
         
         
@@ -34,7 +34,8 @@
         <meta property="og:site_name" content="Galaxy Training Network" />
         <meta property="og:title" content="Galaxy Training: De Bruijn Graph Assembly" />
         <meta property="og:description" content="DNA sequence data has become an indispensable tool for Mo..." />
-        <meta property="og:image" content="/training-material/assets/images/GTNLogo1000.png" />
+        
+        <meta property="og:image" content="/training-material/assets/images/GTNLogo1000.png">
 
         <script type="application/ld+json">
             
@@ -223,12 +224,21 @@
       "name": "Assembly",
       "description": "DNA sequence data has become an indispensable tool for Molecular Biology & Evolutionary Biology. Study in these fields now require a genome sequence to work from. We call this a 'Reference Sequence.' We need to build a reference for each species. We do this by Genome Assembly. De novo Genome Assembly is the process of reconstructing the original DNA sequence from the fragment reads alone.",
       "url": "https://training.galaxyproject.org/training-material/topics/assembly/"
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://edamontology.org/topic_0196",
+      "inDefinedTermSet": "http://edamontology.org",
+      "termCode": "topic_0196",
+      "url": "https://bioportal.bioontology.org/ontologies/EDAM/?p=classes&conceptid=http%3A%2F%2Fedamontology.org%2Ftopic_0196"
     }
   ]
 }
         </script>
     </head>
   <body>
+
+
     <script type="text/javascript" src="/training-material/assets/js/theme.js"></script>
     <textarea id="source">
 name: inverse
@@ -512,7 +522,7 @@ Consider the 2 symbol alphabet (0 &amp; 1) de Bruijn Graph for k =3
 # **More coverage**       .pull-right[.image-50[![hazard symbol](../../images/depthlogo.png)]]]
 
 .enlarge120[
-* Errors won't be duplicated in every read
+* Errors won&apos;t be duplicated in every read
 * Most reads will be error free
 * We can count the frequency of each k-mer
 * Annotate the graph with the frequencies
@@ -647,7 +657,7 @@ But: You need to choose **k** and **c** wisely!
 # **SPAdes**     .pull-right[.image-50[![spades logo](../../images/spades.png)]]]
 
 .enlarge120[
-* de Bruijn graph assembler by Pavel Pevzner's group out of St. Petersburg
+* de Bruijn graph assembler by Pavel Pevzner&apos;s group out of St. Petersburg
 
 
 * Uses multiple k-mers to build the graph
@@ -742,9 +752,10 @@ This material is licensed under the Creative Commons Attribution 4.0 Internation
 
 
     </textarea>
-	<script src="/training-material/assets/js/remark-latest.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="/training-material/assets/js/clipboard.min.js"></script>
-    <script type="text/javascript">
+	<script src="/training-material/assets/js/remark-latest.min.js"></script>
+    <script src="/training-material/assets/js/theme.js"></script>
+    <script src="/training-material/assets/js/clipboard.min.js"></script>
+    <script>
       var slideshow = remark.create({navigation: {scroll: false}, ratio: '16:9'});
       var hljs = remark.highlighter.engine;
       var snippets = document.querySelectorAll('code.remark-code');
@@ -756,7 +767,7 @@ This material is licensed under the Creative Commons Attribution 4.0 Internation
       }});
     </script>
 
-    <script type="text/javascript">
+    <script>
         if(window.location.hostname === "galaxyproject.github.io") {
             // Redirect
             var redirect = "https://training.galaxyproject.org" + window.location.pathname + window.location.search;

@@ -34,8 +34,16 @@
       "gitter": "hexylena",
       "joined": "2017-09",
       "elixir_node": "nl",
+      "fediverse": "https://galaxians.garden/hexylena",
+      "contact_for_training": false,
+      "location": {
+        "country": "NL",
+        "lat": 51.91,
+        "lon": 4.46
+      },
       "id": "hexylena",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/hexylena.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/"
     },
     {
       "name": "Donny Vrins",
@@ -43,13 +51,15 @@
       "linkedin": "Donny Vrins",
       "email": "D.vrins@live.nl",
       "id": "dirowa",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/dirowa.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/dirowa/"
     },
     {
       "name": "Bazante Sanders",
       "joined": "2020-12",
       "id": "bazante1",
-      "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json"
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/bazante1.json",
+      "page": "https://training.galaxyproject.org/training-material/hall-of-fame/bazante1/"
     }
   ],
   "priority": 12,
@@ -60,5 +70,30 @@
   "url": "/topics/data-science/tutorials/python-subprocess/tutorial.html",
   "topic_name": "data-science",
   "tutorial_name": "python-subprocess",
-  "dir": "topics/data-science/tutorials/python-subprocess"
+  "dir": "topics/data-science/tutorials/python-subprocess",
+  "id": "data-science/python-subprocess",
+  "video_library": {
+    "tutorial": null,
+    "slides": null,
+    "demo": null,
+    "both": null,
+    "session": null
+  },
+  "hands_on": true,
+  "slides": false,
+  "tools": [
+
+  ],
+  "tours": false,
+  "video": false,
+  "translations": {
+    "tutorial": [
+
+    ],
+    "slides": [
+
+    ],
+    "video": false
+  },
+  "type": "tutorial"
 }

@@ -12,31 +12,32 @@
         <link rel="stylesheet" href="/training-material/assets/css/bootstrap.min.css?v=3">
         <link rel="stylesheet" href="/training-material/assets/css/bootstrap-toc.min.css">
         <link rel="stylesheet" href="/training-material/assets/css/main.css?v=2">
-        <script src="https://kit.fontawesome.com/67b3f98409.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="/training-material/assets/fontawesome/css/all.css">
         <link rel="stylesheet" href="/training-material/assets/css/academicons.css">
-        <link rel="shortcut icon" href="/training-material/favicon.ico" type="image/x-icon" />
-        <link rel="alternate" type="application/atom+xml" href="/training-material/feed.xml" />
-        <link rel="canonical" href="https://training.galaxyproject.org/training-material/news/2022/03/14/VGP-training.html" />
-        <link rel="license" href="https://creativecommons.org/licenses/by/4.0/" />
+        <link rel="shortcut icon" href="/training-material/favicon.ico" type="image/x-icon">
+        <link rel="alternate" type="application/atom+xml" href="/training-material/feed.xml">
+        <link rel="canonical" href="https://training.galaxyproject.org/training-material/news/2022/03/14/VGP-training.html">
+        <link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
 
-        <meta name="DC.identifier" content="https://github.com/galaxyproject/training-material" />
-<meta name="DC.type" content="text" />
-<meta name="DC.title" content="New Tutorial: VGP assembly pipeline" />
-<meta name="DC.publisher" content="Galaxy Training Network" />
-<meta name="DC.date" content="2022-03-14 14:49:00 +0000" />
-<meta name="DC.creator" content="Cristóbal Gallardo" />
-<meta name="DC.creator" content="Delphine Lariviere" />
-<meta name="DC.creator" content="Alex Ostrovsky" />
+        <meta name="DC.identifier" content="https://github.com/galaxyproject/training-material">
+<meta name="DC.type" content="text">
+<meta name="DC.title" content="New Tutorial: VGP assembly pipeline">
+<meta name="DC.publisher" content="Galaxy Training Network">
+<meta name="DC.date" content="2022-03-14 14:49:00 +0000">
+<meta name="DC.creator" content="Cristóbal Gallardo">
+<meta name="DC.creator" content="Delphine Lariviere">
+<meta name="DC.creator" content="Alex Ostrovsky">
 
         
         
         
         
-        <meta name="description" content="Collection of tutorials developed and maintained by the w..." />
-        <meta property="og:site_name" content="Galaxy Training Network" />
-        <meta property="og:title" content="Galaxy Training: New Tutorial: VGP assembly pipeline" />
-        <meta property="og:description" content="Collection of tutorials developed and maintained by the w..." />
-        <meta property="og:image" content="/training-material/assets/images/GTNLogo1000.png" />
+        <meta name="description" content="Collection of tutorials developed and maintained by the w...">
+        <meta property="og:site_name" content="Galaxy Training Network">
+        <meta property="og:title" content="Galaxy Training: New Tutorial: VGP assembly pipeline">
+        <meta property="og:description" content="Collection of tutorials developed and maintained by the w...">
+        
+        <meta property="og:image" content="/training-material/assets/images/GTNLogo1000.png">
 
         
     </head>
@@ -47,7 +48,9 @@
         <div class="container">
             <a class="navbar-brand" href="/training-material/">
                 <img src="/training-material/assets/images/GTN-60px.png" height="30" alt="Galaxy Training Network logo">
-                Galaxy Training!
+                
+                    Galaxy Training!
+                
             </a>
 
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#top-navbar" aria-controls="top-navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,38 +67,10 @@
                         
                     </li>
 
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="Languages">
-                            <i class="fas fa-language" aria-hidden="true"></i><span class="visually-hidden">language</span> Languages
+                    <li class="nav-item">
+                        <a class="nav-link" href="/training-material/learning-pathways" title="Learning Pathways">
+                           <i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="visually-hidden">curriculum</span> Learning Pathways
                         </a>
-                        <div class="dropdown-menu dropdown-menu-right">
-                            
-                              <strong class="dropdown-header">Automatic Translations</strong>
-            
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org/news/2022/03/14/VGP-training.html&edit-text=&act=url">
-                            Français
-                            </a>
-                            
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org/news/2022/03/14/VGP-training.html&edit-text=&act=url">
-                            日本語
-                            </a>
-                            
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org/news/2022/03/14/VGP-training.html&edit-text=&act=url">
-                            Español
-                            </a>
-                            
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org/news/2022/03/14/VGP-training.html&edit-text=&act=url">
-                            Português
-                            </a>
-                            
-            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org/news/2022/03/14/VGP-training.html&edit-text=&act=url">
-                            العربية
-                            </a>
-                            
-                            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org/news/2022/03/14/VGP-training.html&edit-text=&act=url" title="">
-                            And more!
-                            </a>
-                        </div>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -209,6 +184,7 @@
     </nav>
 </header>
 
+        
         <div class="container main-content" role="main">
         <section>
   <h1>New Tutorial: VGP assembly pipeline</h1>
@@ -219,18 +195,18 @@
 <div markdown="0">
 
 	<div class="contributors-line">
-		Authors: <a href="/training-material/hall-of-fame/gallardoalba/" class="contributor-badge contributor-gallardoalba"><img src="https://avatars.githubusercontent.com/gallardoalba?s=27" alt="Avatar">Cristóbal Gallardo</a><a href="/training-material/hall-of-fame/delphine-l/" class="contributor-badge contributor-delphine-l"><img src="https://avatars.githubusercontent.com/delphine-l?s=27" alt="Avatar">Delphine Lariviere</a><a href="/training-material/hall-of-fame/astrovsky01/" class="contributor-badge contributor-astrovsky01"><img src="https://avatars.githubusercontent.com/astrovsky01?s=27" alt="Avatar">Alex Ostrovsky</a>
+		Authors: <a href="/training-material/hall-of-fame/gallardoalba/" class="contributor-badge contributor-gallardoalba"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/gallardoalba?s=27" alt="Avatar">Cristóbal Gallardo</a><a href="/training-material/hall-of-fame/delphine-l/" class="contributor-badge contributor-delphine-l"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/delphine-l?s=27" alt="Avatar">Delphine Lariviere</a><a href="/training-material/hall-of-fame/astrovsky01/" class="contributor-badge contributor-astrovsky01"><img src="/training-material/assets/images/orcid.png" alt="orcid logo"/><img src="https://avatars.githubusercontent.com/astrovsky01?s=27" alt="Avatar">Alex Ostrovsky</a>
 	</div>
 
 </div>
 
 
 
-<button class="label label-default tutorial_tag" id="new tutorial" style="--color-primary: #ffad3c; --color-darker: #e89800; --color-dimmed: #f6a200;" title="new tutorial">new tutorial</button>
+<button class="label label-default tutorial_tag" id="new tutorial" style="--color-primary: #ffb14f; --color-darker: #eb9b00; --color-dimmed: #faa400;" title="new tutorial">new tutorial</button>
 
-<button class="label label-default tutorial_tag" id="assembly" style="--color-primary: #ffa1d6; --color-darker: #ff7bca; --color-dimmed: #ff8fd0;" title="assembly">assembly</button>
+<button class="label label-default tutorial_tag" id="assembly" style="--color-primary: #ffa5d8; --color-darker: #ff80cc; --color-dimmed: #ff93d2;" title="assembly">assembly</button>
 
-<button class="label label-default tutorial_tag" id="pacbio" style="--color-primary: #ffa1d2; --color-darker: #ff7cc5; --color-dimmed: #ff90cc;" title="pacbio">pacbio</button>
+<button class="label label-default tutorial_tag" id="pacbio" style="--color-primary: #ffa6d4; --color-darker: #ff81c7; --color-dimmed: #ff94cd;" title="pacbio">pacbio</button>
 
 
 <hr/>
@@ -305,7 +281,9 @@
           "name": "Galaxy Training Network",
           "url": "https://galaxyproject.org/teach/gtn/"
         }
-      ]
+      ],
+      "identifier": "https://orcid.org/0000-0002-5752-2155",
+      "orcid": "https://orcid.org/0000-0002-5752-2155"
     },
     {
       "@context": "https://schema.org",
@@ -326,7 +304,9 @@
           "name": "Galaxy Training Network",
           "url": "https://galaxyproject.org/teach/gtn/"
         }
-      ]
+      ],
+      "identifier": "https://orcid.org/0000-0001-6421-3484",
+      "orcid": "https://orcid.org/0000-0001-6421-3484"
     },
     {
       "@context": "https://schema.org",
@@ -347,7 +327,9 @@
           "name": "Galaxy Training Network",
           "url": "https://galaxyproject.org/teach/gtn/"
         }
-      ]
+      ],
+      "identifier": "https://orcid.org/0000-0002-7901-7109",
+      "orcid": "https://orcid.org/0000-0002-7901-7109"
     }
   ],
   "publisher": {
@@ -402,23 +384,23 @@
         The content of the tutorials is licensed under the <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. The website and infrastructure is licensed under <a rel="license" href="https://github.com/galaxyproject/training-material/blob/main/LICENSE.md">MIT</a>.
         </p>
 
-        <p>This is revision <a href="https://github.com/galaxyproject/training-material/commit/b07c9564eac8d78208e212c1b02c14530332d57c">b07c9564eac8d78208e212c1b02c14530332d57c</a></p>
+        <p>This is revision <a href="https://github.com/galaxyproject/training-material/commit/432506ea252fecb020af981ef0c2a32ca4d28b6c">432506ea252fecb020af981ef0c2a32ca4d28b6c</a>. </p>
     </div>
 </footer>
 
         
-        <script type="text/javascript" src="/training-material/assets/js/jquery.slim.min.js"></script>
-        <script type="text/javascript" src="/training-material/assets/js/popper.min.js"></script>
-        <script type="text/javascript" src="/training-material/assets/js/bootstrap.min.js?v=3"></script>
-        <script type="text/javascript" src="/training-material/assets/js/details-element-polyfill.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-        <script type="text/javascript" src="/training-material/assets/js/bootstrap-toc.min.js"></script>
-        <script type="text/javascript" src="/training-material/assets/js/main.js"></script>
-        <script type="text/javascript" src="/training-material/assets/js/clipboard.min.js"></script>
-        <script type="text/javascript">
+        <script src="/training-material/assets/js/jquery.slim.min.js"></script>
+        <script src="/training-material/assets/js/popper.min.js"></script>
+        <script src="/training-material/assets/js/bootstrap.min.js?v=3"></script>
+        <script src="/training-material/assets/js/details-element-polyfill.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script src="/training-material/assets/js/bootstrap-toc.min.js"></script>
+        <script src="/training-material/assets/js/main.js"></script>
+        <script src="/training-material/assets/js/clipboard.min.js"></script>
+        <script>
         var snippets=document.querySelectorAll('div.highlight');
         [].forEach.call(snippets,function(snippet){
-            snippet.firstChild.insertAdjacentHTML('beforebegin','<button class="btn btn-light" data-clipboard-snippet><i class="fa fa-copy"></i>&nbsp;Copy</button>');
+            snippet.firstChild.insertAdjacentHTML('beforebegin','<button class="btn btn-light" data-clipboard-snippet tabindex="0"><i class="fa fa-copy"></i>&nbsp;Copy</button>');
         });
 
         var clipboardSnippets=new ClipboardJS('[data-clipboard-snippet]',{

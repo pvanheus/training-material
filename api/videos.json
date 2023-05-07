@@ -115,14 +115,14 @@
                                
                        
                                
-                       
-                               
 			{
-				"id": "admin/tutorials/maintenance/slides",
+				"id": "admin/tutorials/backup-cleanup/slides",
 				"topic": "Galaxy Server administration",
-				"title": "Server Maintenance and Backups"
+				"title": "Server Maintenance: Cleanup, Backup, and Restoration"
 			},
 								
+                               
+                       
                                
                        
                                
@@ -151,7 +151,7 @@
 			{
 				"id": "admin/tutorials/users-groups-quotas/slides",
 				"topic": "Galaxy Server administration",
-				"title": "User, Role, Group and Quota managment"
+				"title": "User, Role, Group, Quota, and Authentication managment"
 			},
 								
                                
@@ -236,10 +236,34 @@
                        
                                
                        
+                               
+                       
+                               
+                       
+                               
+                       
+                               
+                       
                
 					
                        
                        
+                       
+                               
+			{
+				"id": "ai4life/tutorials/example-slides/slides",
+				"topic": "Image analysis using Deep Learning",
+				"title": "Example Slide Deck"
+			},
+								
+                               
+                       
+               
+					
+                       
+                       
+                       
+                               
                        
                                
                        
@@ -594,6 +618,10 @@
                        
                                
                        
+                               
+                       
+                               
+                       
                
 					
                        
@@ -814,6 +842,8 @@
                        
                                
                        
+                               
+                       
                
 					
                        
@@ -933,7 +963,10 @@
                        
                        
                        
-                               
+               
+					
+                       
+                       
                        
                                
                        
@@ -973,6 +1006,10 @@
                                
                        
                                
+                       
+                               
+                       
+                               
 			{
 				"id": "single-cell/tutorials/scrna-plates-batches-barcodes/slides",
 				"topic": "Single Cell",
@@ -991,10 +1028,14 @@
                        
                                
                        
+                               
+                       
                
 					
                        
                        
+                       
+                               
                        
                                
                        
