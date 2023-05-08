@@ -23670,5 +23670,16 @@
     "topic": "Variant Analysis",
     "month": "2023-05",
     "date": "2023-05-07"
+  },
+  {
+    "": "2152",
+    "note": "5",
+    "pro": "Simple and easy-to-understand language of the hands-on-tutorial",
+    "con": "Some of the hyperlinks are not functional; please update those. For example, the hyperlink for alignment tools does not open.",
+    "anonymous": null,
+    "tutorial": "NGS data logistics",
+    "topic": "Introduction to Galaxy Analyses",
+    "month": "2023-05",
+    "date": "2023-05-07"
   }
 ]
