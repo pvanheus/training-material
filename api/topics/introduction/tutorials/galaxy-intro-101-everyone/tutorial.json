@@ -188,6 +188,11 @@
         "usegalaxy": "true"
       },
       {
+        "url": "https://usegalaxy.fr/",
+        "name": "UseGalaxy.fr",
+        "usegalaxy": "true"
+      },
+      {
         "url": "https://usegalaxy.no/",
         "name": "UseGalaxy.no",
         "usegalaxy": "true"
@@ -199,6 +204,11 @@
       }
     ],
     "inexact": [
+      {
+        "url": "https://galaxy.mesocentre.uca.fr",
+        "name": "Galaxy@AuBi",
+        "usegalaxy": "false"
+      },
       {
         "url": "https://usegalaxy.be/",
         "name": "UseGalaxy.be",
