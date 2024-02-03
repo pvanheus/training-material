@@ -143,14 +143,14 @@
   ],
   "supported_servers": {
     "exact": [
-
-    ],
-    "inexact": [
       {
-        "url": "https://usegalaxy.fr/",
-        "name": "UseGalaxy.fr",
+        "url": "https://usegalaxy.be/",
+        "name": "UseGalaxy.be",
         "usegalaxy": "true"
       }
+    ],
+    "inexact": [
+
     ]
   },
   "topic_name_human": "Proteomics",
