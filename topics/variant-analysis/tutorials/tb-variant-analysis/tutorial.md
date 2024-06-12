@@ -187,7 +187,7 @@ We should also look for contamination in our reads. Sometimes, other sources of 
 >   - *"Enable quick operation"*: `Yes`
 >   - Under *"Create report"*:
 >       - *"Print a report with aggregrate counts/clade to file"*: `Yes`
->   - *"Select a Kraken2 database"*: `Standard`
+>   - *"Select a Kraken2 database"*: `Prebuilt Refseq indexes:  PlusPF (Standard plus protozoa and fungi) (Version:  2022-06-07 - Downloaded: 2022-09-04T165121Z)`
 >
 > 2. Inspect the report produced by Kraken
 >
