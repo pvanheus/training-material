@@ -33,7 +33,7 @@
             "outputs": [],
             "position": {
                 "left": 0,
-                "top": 197.65334499942068
+                "top": 198.66018980563933
             },
             "tool_id": null,
             "tool_state": "{\"optional\": false, \"tag\": null, \"collection_type\": \"list:paired\"}",
@@ -60,7 +60,7 @@
             "outputs": [],
             "position": {
                 "left": 1.2375059369900399,
-                "top": 468.60335731890825
+                "top": 469.6102021251269
             },
             "tool_id": null,
             "tool_state": "{\"optional\": false, \"format\": [\"genbank\"], \"tag\": null}",
@@ -87,7 +87,7 @@
             "outputs": [],
             "position": {
                 "left": 1.8793911063654463,
-                "top": 625.941216238093
+                "top": 626.9480610443117
             },
             "tool_id": null,
             "tool_state": "{\"default\": 10, \"parameter_type\": \"integer\", \"optional\": true}",
@@ -114,7 +114,7 @@
             "outputs": [],
             "position": {
                 "left": 1.358958473709409,
-                "top": 769.7667492120408
+                "top": 770.7735940182595
             },
             "tool_id": null,
             "tool_state": "{\"default\": 0.9, \"parameter_type\": \"float\", \"optional\": true}",
@@ -141,7 +141,7 @@
             "outputs": [],
             "position": {
                 "left": 7.8094297093662135,
-                "top": 931.4341211532
+                "top": 932.4409659594186
             },
             "tool_id": null,
             "tool_state": "{\"parameter_type\": \"text\", \"optional\": true}",
@@ -186,7 +186,7 @@
             ],
             "position": {
                 "left": 251.07744414219775,
-                "top": 241.74948225333588
+                "top": 242.7563270595545
             },
             "post_job_actions": {
                 "HideDatasetActionoutput_paired_coll": {
@@ -241,7 +241,7 @@
             ],
             "position": {
                 "left": 1285.0333764668342,
-                "top": 973.9332235499869
+                "top": 974.9400683562055
             },
             "post_job_actions": {
                 "HideDatasetActionout_file1": {
@@ -335,7 +335,7 @@
             ],
             "position": {
                 "left": 589.725217307746,
-                "top": 458.168810657481
+                "top": 459.1756554636996
             },
             "post_job_actions": {
                 "HideDatasetActionsnpconsensus": {
@@ -398,8 +398,8 @@
                 }
             ],
             "position": {
-                "left": 1605.1346167188794,
-                "top": 0
+                "left": 1605.1382647301655,
+                "top": 0.0
             },
             "post_job_actions": {
                 "HideDatasetActionoutput": {
@@ -422,21 +422,21 @@
                 "owner": "iuc",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
-            "tool_state": "{\"confidence\": \"0.0\", \"kraken2_database\": \"pluspf2021-05\", \"min_base_quality\": \"0\", \"minimum_hit_groups\": \"2\", \"quick\": false, \"report\": {\"create_report\": true, \"use_mpa_style\": false, \"report_zero_counts\": false, \"report_minimizer_data\": false}, \"single_paired\": {\"single_paired_selector\": \"collection\", \"__current_case__\": 0, \"input_pair\": {\"__class__\": \"ConnectedValue\"}}, \"split_reads\": false, \"use_names\": true, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_state": "{\"confidence\": \"0.0\", \"kraken2_database\": \"2022-09-04T165121Z_standard_prebuilt_pluspf_2022-06-07\", \"min_base_quality\": \"0\", \"minimum_hit_groups\": \"2\", \"quick\": false, \"report\": {\"create_report\": true, \"use_mpa_style\": false, \"report_zero_counts\": false, \"report_minimizer_data\": false}, \"single_paired\": {\"single_paired_selector\": \"collection\", \"__current_case__\": 0, \"input_pair\": {\"__class__\": \"RuntimeValue\"}}, \"split_reads\": false, \"use_names\": true, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
             "tool_version": "2.1.1+galaxy1",
             "type": "tool",
             "uuid": "60b17d56-0ef9-4829-829e-923f66de5e2f",
             "when": null,
             "workflow_outputs": [
                 {
-                    "label": "report_output",
-                    "output_name": "report_output",
-                    "uuid": "c7abf2bf-ed4c-433e-a695-9eca61282bb5"
-                },
-                {
                     "label": "output",
                     "output_name": "output",
                     "uuid": "083a0e51-7780-4c91-a071-dc0e4641d060"
+                },
+                {
+                    "label": "report_output",
+                    "output_name": "report_output",
+                    "uuid": "c7abf2bf-ed4c-433e-a695-9eca61282bb5"
                 }
             ]
         },
@@ -466,7 +466,7 @@
             ],
             "position": {
                 "left": 887.6124585098488,
-                "top": 376.2783491090421
+                "top": 377.2851939152607
             },
             "post_job_actions": {
                 "HideDatasetActionoutput_html": {
@@ -528,7 +528,7 @@
             ],
             "position": {
                 "left": 794.3925565516191,
-                "top": 867.8479412652023
+                "top": 868.8547860714209
             },
             "post_job_actions": {
                 "HideDatasetActionoutput_global_dist": {
@@ -583,7 +583,7 @@
             ],
             "position": {
                 "left": 1138.4125378555523,
-                "top": 475.0033552125577
+                "top": 476.01020001877635
             },
             "post_job_actions": {
                 "HideDatasetActionoutput1": {
@@ -641,7 +641,7 @@
             ],
             "position": {
                 "left": 1132.7778271896836,
-                "top": 615.3961147101202
+                "top": 616.4029595163388
             },
             "post_job_actions": {
                 "HideDatasetActionoutput_vcf": {
@@ -704,7 +704,7 @@
             ],
             "position": {
                 "left": 1136.2816706306537,
-                "top": 835.6661847310314
+                "top": 836.67302953725
             },
             "post_job_actions": {},
             "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/tb_variant_filter/tb_variant_filter/0.4.0+galaxy0",
@@ -743,7 +743,7 @@
             ],
             "position": {
                 "left": 1141.9749590473386,
-                "top": 328.81583744673696
+                "top": 329.8226822529556
             },
             "post_job_actions": {
                 "HideDatasetActionoutput": {
@@ -771,12 +771,7 @@
                     "output_name": "output_quantized_bed"
                 }
             },
-            "inputs": [
-                {
-                    "description": "runtime parameter for tool Text reformatting",
-                    "name": "infile"
-                }
-            ],
+            "inputs": [],
             "label": null,
             "name": "Text reformatting",
             "outputs": [
@@ -787,7 +782,7 @@
             ],
             "position": {
                 "left": 1145.2913123013832,
-                "top": 1091.060842506465
+                "top": 1092.0676873126836
             },
             "post_job_actions": {
                 "HideDatasetActionoutfile": {
@@ -803,7 +798,7 @@
                 "owner": "bgruening",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
-            "tool_state": "{\"code\": \"$4 == \\\"LOW\\\" {start = $2+1; print \\\"$1\\\\t\\\" start \\\"\\\\t$3\\\"}\", \"infile\": {\"__class__\": \"RuntimeValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_state": "{\"code\": \"$4 == \\\"LOW\\\" {start = $2+1; print \\\"$1\\\\t\\\" start \\\"\\\\t$3\\\"}\", \"infile\": {\"__class__\": \"ConnectedValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
             "tool_version": "9.3+galaxy1",
             "type": "tool",
             "uuid": "4778f600-d435-4ca0-a4f2-45fbd3aeceeb",
@@ -832,7 +827,7 @@
             ],
             "position": {
                 "left": 1379.287563641826,
-                "top": 248.44083584414724
+                "top": 249.4476806503659
             },
             "post_job_actions": {
                 "TagDatasetActionoutput": {
@@ -893,7 +888,7 @@
             ],
             "position": {
                 "left": 1604.2880860884582,
-                "top": 202.3882167631859
+                "top": 203.39506156940456
             },
             "post_job_actions": {
                 "HideDatasetActionstats": {
@@ -968,7 +963,7 @@
             ],
             "position": {
                 "left": 1601.1886936133394,
-                "top": 1003.2778990479657
+                "top": 1004.2847438541843
             },
             "post_job_actions": {
                 "TagDatasetActionoutput_file": {
@@ -1037,7 +1032,7 @@
             ],
             "position": {
                 "left": 1591.762535768669,
-                "top": 427.7783435581315
+                "top": 428.7851883643501
             },
             "post_job_actions": {
                 "HideDatasetActiondrug_resistance_report_txt": {
@@ -1095,6 +1090,6 @@
         "pathogen",
         "tuberculosis"
     ],
-    "uuid": "51874605-ed85-447b-a13c-d542418990e7",
-    "version": 33
+    "uuid": "180714d7-a956-4499-b292-483b489e01ae",
+    "version": 34
 }
