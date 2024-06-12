@@ -343,7 +343,7 @@ Finally, TB Variant Report uses the COMBAT-TB [eXplorer](https://explorer.sanbi.
 >    > >
 >    > > 1. `4` with sublineage `4.4.1.1.1`.
 >    > >
->    > > 2. Yes, resistance to isoniazid, rifampicin, ethambutol, pyrazinamide and streptomycin as well as to the flouroquinolines (amikacin, capreomycin and kanamycin) is predicted from mutations in the katG, rpoB, embB, pncA, rpsL and rrs (ribosomal RNA) genes respectively.
+>    > > 2. Yes, resistance to isoniazid, rifampicin, ethambutol, pyrazinamide and streptomycin is predicted from mutations in the katG, rpoB, embB, pncA and rpsL genes respectively.
 >    > >
 >    > {: .solution}
 >    {: .question}
